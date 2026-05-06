@@ -1,0 +1,19 @@
+.credentials {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    &__gap {
+      margin-left: 1.5rem;
+      color: #264065;
+    }
+    &__item {
+      display: inline-block;
+      padding: 16px 24px;
+      color: white;
+      background-color: #264065;
+      text-decoration: none;
+      border-radius: 28px;
+    }
+
+}
