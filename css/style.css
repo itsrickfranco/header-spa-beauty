@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 10px 25px;
   max-width: 1200px;
-  background-image: url("../../img/background.png");
+  background-image: url("../img/background.png");
   background-size: 100% 70%;
   background-repeat: no-repeat;
 }
@@ -74,7 +74,7 @@ header.container-header {
 
 .hero {
   padding: 2% 2%;
-  background-image: url("../../img/model.png");
+  background-image: url("../img/model.png");
   background-repeat: no-repeat;
   background-position: 92% 70%;
   background-size: contain;
@@ -124,7 +124,7 @@ header.container-header {
   height: 40px;
   margin-right: 10px;
   border-radius: 50%;
-  background-image: url("../../img/play-icon.svg");
+  background-image: url("../img/play-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
