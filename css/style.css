@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 25px;
   max-width: 1200px;
   background-image: url("../img/background.png");
@@ -192,4 +193,6 @@ header.container-header {
   position: absolute;
   top: 70%;
   right: 12%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
