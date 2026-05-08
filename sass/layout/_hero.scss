@@ -36,7 +36,13 @@
                 color: white;
                 background-color: #264065;
                 text-decoration: none;
-                border-radius: 28px;                
+                border-radius: 28px;
+                
+                &:hover {
+                    border: 2px solid #264065;
+                    background-color: white;
+                    color: #264065;
+                }
             }
 
             &__play {
@@ -44,6 +50,10 @@
                 align-items: center;
                 color: #264065;
                 text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
                 
 
                 &::before {

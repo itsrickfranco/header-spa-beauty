@@ -3,10 +3,22 @@
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
+
+    &__icon {
+      &:hover {
+        border-bottom: 2px solid #264065;
+      }
+    }
+
     &__gap {
       margin-left: 1.5rem;
       color: #264065;
+
+      &:hover {
+        color: white;
+      }
     }
+
     &__item {
       display: inline-block;
       padding: 16px 24px;
@@ -14,6 +26,12 @@
       background-color: #264065;
       text-decoration: none;
       border-radius: 28px;
+
+      &:hover {
+        color: #264065;
+        background-color: white;
+        border: 2px solid #264065;
+      }
     }
 
 }

@@ -15,11 +15,17 @@ nav {
       font-weight: 500;
       transition: color 0.3s ease;
 
+      &:hover {
+        text-decoration: underline;
+      }
+
       &:last-of-type {
         display: flex;
         align-items: center;
         justify-content: center;
         }
+
+      
     }    
 }
 

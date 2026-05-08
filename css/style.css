@@ -42,6 +42,9 @@ nav a {
   font-weight: 500;
   transition: color 0.3s ease;
 }
+nav a:hover {
+  text-decoration: underline;
+}
 nav a:last-of-type {
   display: flex;
   align-items: center;
@@ -54,9 +57,15 @@ nav a:last-of-type {
   justify-content: center;
   align-items: center;
 }
+.credentials__icon:hover {
+  border-bottom: 2px solid #264065;
+}
 .credentials__gap {
   margin-left: 1.5rem;
   color: #264065;
+}
+.credentials__gap:hover {
+  color: white;
 }
 .credentials__item {
   display: inline-block;
@@ -65,6 +74,11 @@ nav a:last-of-type {
   background-color: #264065;
   text-decoration: none;
   border-radius: 28px;
+}
+.credentials__item:hover {
+  color: #264065;
+  background-color: white;
+  border: 2px solid #264065;
 }
 
 header.container-header {
@@ -112,11 +126,19 @@ header.container-header {
   text-decoration: none;
   border-radius: 28px;
 }
+.hero__content__buttons__book:hover {
+  border: 2px solid #264065;
+  background-color: white;
+  color: #264065;
+}
 .hero__content__buttons__play {
   display: inline-flex;
   align-items: center;
   color: #264065;
   text-decoration: none;
+}
+.hero__content__buttons__play:hover {
+  text-decoration: underline;
 }
 .hero__content__buttons__play::before {
   content: "";
